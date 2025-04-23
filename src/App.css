@@ -1,0 +1,133 @@
+button {
+  z-index: 1;
+}
+
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+.user-selector {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  background: #fff;
+}
+
+.inventories-container {
+  height: calc(100vh - 56px);
+}
+
+.tab-container {
+  width: fit-content;
+}
+
+.inner-tab {
+  padding: 0.2vh 1vw;
+  width: 15vw;
+  text-align: center;
+}
+
+table.scolldown {
+  width: 90vw;
+}
+
+table.scrolldown thead,
+table.scrolldown tbody {
+  display: block;
+}
+
+table.scrolldown tbody {
+  height: calc(100vh - 187px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+table.scrolldown tbody tr {
+  display: flex;
+}
+
+.item-number {
+  width: 3vw;
+}
+
+.code {
+  width: 10vw;
+}
+
+.item-name {
+  width: calc(32vw - 2rem);
+}
+
+.item-stock {
+  width: 5vw;
+}
+
+.item-location {
+  width: 8vw;
+}
+
+.item-request {
+  width: 10vw;
+}
+
+.item-observations {
+  width: 22vw;
+}
+
+.item-buttons {
+  width: 10vw;
+}
+
+.item-buttons button {
+
+} 
+
+.item-add button {
+ /* width: 90px; */
+}
+
+/*
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
